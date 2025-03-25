@@ -1,7 +1,7 @@
 export default function handler(req, res) {
   const links = [
-    "https://exemplo.com/link1", // SUBSTITUA pelo seu 1º link
-    "https://exemplo.com/link2"  // SUBSTITUA pelo seu 2º link
+    "https://www.youtube.com/@canalcanalha", // SUBSTITUA pelo seu 1º link
+    "https://www.youtube.com/@Rodrigo_Goes"  // SUBSTITUA pelo seu 2º link
   ];
   
   // Escolhe aleatoriamente (50% para cada)
