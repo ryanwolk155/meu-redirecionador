@@ -1,8 +1,8 @@
 export default function handler(req, res) {
   // 1. Lista de links para redirecionamento (substitua pelos seus URLs)
   const links = [
-    "https://www.youtube.com/@canalcanalha" + Date.now(), // Adiciona timestamp para evitar cache
-    "https://www.youtube.com/@Rodrigo_Goes" + Date.now()
+    "https://modelapi.my.canva.site/" + Date.now(), // Adiciona timestamp para evitar cache
+    "https://modelapi.my.canva.site/c-pia-de-in-cio" + Date.now()
   ];
 
   // 2. Cabeçalhos ANTI-CACHE (cruciais para o Facebook/Vercel)
